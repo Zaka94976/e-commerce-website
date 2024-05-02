@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Urbanist", sans-serif;
+}
+
+:root{
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary:#1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:#c6c6c6;
+    --secondary-color: #29a9fd;
+    --bs-supporting-color: #C850C0;
+}
+h1, h2,h3,h4,h5{
+    font-family: 'Lexend Deca', sans-serif;
+    color: var( --secondary-color);
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+a{
+    text-decoration: none;
+}
+.hero-video--section{
+    width: 45rem;
+    border-radius: 2rem;
+    
+}
+.hero-section .container{
+    display:grid;
+    place-items: center;
+    height: inherit;
+    
+}
+.bg-main{
+    height: 90vh;
+    
+ }
+ .bg-color{
+    background-color: #68AEE3;
+}
+.nav-link:hover{
+    color: var(--secondary-color) !important;
+}
+
+/* Add a class for rounded animation */
+.rounded-animation {
+    animation: pulse 2s infinite; /* Apply the 'pulse' animation for 2 seconds infinitely */
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0);
+    }
+    20% {
+        transform: scale(1);
+         /* Change background color at 50% */
+    }
+    40% {
+        transform: scale(1);
+        
+    }
+}
+
+
+
+
